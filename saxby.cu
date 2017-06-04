@@ -37,7 +37,7 @@ int main (void){
 
 	float maxError = 0.0f;
 	for(int i = 0; i < N; i++) {
-		maxError = max(maxError, abs(y[i] - 3.0f));
+		maxError = max(maxError, abs(z[i] - 3.0f));
 	}
 	printf("Max Error: %f\n", maxError);
 
